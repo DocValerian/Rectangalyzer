@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Rectangalyzer - by Lars Siemon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div id="container">
+            <h1>Rectangalyzer</h1>
+            <h2>...analyzing rectangles</h2>
+
+            <div class="float_table controlls">
+                <h3>Controls</h3>
+                <div id="ctrl"></div>
+            </div>
+             <div class="float_table  elements">
+                <h3>Current Elements (click to modify)</h3>
+                <div id="status"></div>
+            </div>
+            <div class="float_table analytics">
+                <h3>Analysis results</h3>
+                <div id="analysis"></div>
+            </div>
+            <h3>Preview</h3>
+            <canvas width="700" height="500" id="canvas">Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+
+
+        <script src="js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/interface.js"></script>
+        <script src="js/geometry.js"></script>
+        <script src="js/calculation.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

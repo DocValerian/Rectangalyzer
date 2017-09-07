@@ -1,5 +1,6 @@
 # README - Rectangalyzer
 This is a small little tool to draw and analyze rectangles :)
+
 It is intended to be fairly lightweight and simple,
 so it only uses Javascript and JQuery without fancy extras.
 
@@ -18,9 +19,9 @@ performance and efficiency was not it's main focus. It is build to be reasonably
 but does not use higher efficiency algorithms like sweeping lines. 
 
 ## how to
-Upon startup the tool is initialized with a default set of rectangles.
+Upon startup *(opening the [index.html](src/index.html))* the tool is initialized with a default set of rectangles.
 
-To **add** a new rectangle, fill the fields on the *Cintrols* panel and **click Draw & Analyze**.
+To **add** a new rectangle, fill the fields on the *Controls* panel and **click Draw & Analyze**.
 The rectangle will be drawn and analyzed against other existing rectangles. 
 
 To **delete** the data, click the **Clear All** button.
@@ -31,5 +32,6 @@ Upon Drawing, the original data will be overridden by the new set (unless the na
 
 ## testing
 If you like to test the code, just open the test/test.html in your browser.
+There are a few qunit tests already there.
 
 **Notice:**  the tests are only demonstrational and not extensive. 
